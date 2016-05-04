@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.sovi.barcodecache20.CacheActivity"
+    tools:showIn="@layout/activity_cache">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:paddingRight="10dp">
+
+        <LinearLayout
+            android:id="@+id/cacheColorIndicatorLayout"
+            android:layout_width="12dp"
+            android:layout_height="match_parent"
+            android:background="@color/md_white"
+            android:orientation="vertical"
+            android:padding="6dp"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="6dp">
+
+            <TextView
+                android:id="@+id/cacheNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="caption"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/cacheInfoTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="info"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/last_readings"
+        android:padding="10dp"
+        android:background="@color/md_grey_500"
+        android:textColor="@color/md_white"
+        android:id="@+id/textView2" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cacheReadingListView" />
+
+</LinearLayout>

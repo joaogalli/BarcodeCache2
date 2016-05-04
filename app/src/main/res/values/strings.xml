@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">BarcodeCache 2</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="fill_cache_name">Fill the cache\'s name</string>
+    <string name="error_could_not_save_cache">Couldn\'t save the cache.</string>
+    <string name="select_cache_insert_reading">Select a cache to save your reading.</string>
+    <string name="title_activity_cache">Cache</string>
+    <string name="_readings">" readings"</string>
+    <string name="point_to_code">Point to a code</string>
+    <string name="action_clear_cache">Clear Cache</string>
+    <string name="action_clear">Clear</string>
+    <string name="edit_cache">Edit Cache</string>
+    <string name="edit">Edit</string>
+    <string name="removed_readings">%1$d removed readings.</string>
+    <string name="clear_cache_confirmation_message">Confirm the remove of all readings?</string>
+    <string name="yes">Yes</string>
+    <string name="active_caches">Actives</string>
+    <string name="action_share_cache">Share cache readings</string>
+    <string name="action_share">Share</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+    <string name="pref_default_reading_separator">;</string>
+    <string name="pref_title_reading_separator">Readings separator</string>
+    <string name="pref_header_share">Sharing</string>
+    <string name="archiveds">Archiveds</string>
+    <string name="about_text_1">O Barcode Cache 2 tem como objetivo possibilitar o armazenamento de leituras de códigos de barras e 2D feitos através de smartphone, proporcionando uma ferramenta offline e que possibilita a exportação das leituras feitas todas de uma vez.</string>
+    <string name="about_text_2">Caso tenha alguma reclamação ou sugestão para melhoria, entre em contato pelo e-mail: barcodecache@sovi.com.br</string>
+    <string name="no_cache_create_one">There is no cache to use, create one here.</string>
+    <string name="noCacheHere">Ops, no cache in here.</string>
+    <string name="cache">Cache</string>
+    <string name="unarchive">Unarchive</string>
+    <string name="archive">Archive</string>
+    <string name="share">Share</string>
+    <string name="clear_readings">Clear readings</string>
+    <string name="no_readings_to_share">There are no readings to share.</string>
+    <string name="about_activity_title">About Barcode Cache 2</string>
+    <string name="cache_name">Cache name</string>
+    <string name="last_readings">Last readings</string>
+    <string name="create_cache">Create cache</string>
+    <string name="actives">Actives</string>
+    <string name="apps">App</string>
+    <string name="about">About</string>
+</resources>

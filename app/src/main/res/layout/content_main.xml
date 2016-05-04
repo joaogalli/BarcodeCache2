@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.sovi.barcodecache20.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <Button
+        android:id="@+id/noCacheCreateOneButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/no_cache_create_one"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/noCacheHereTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/noCacheHere"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/cacheListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
